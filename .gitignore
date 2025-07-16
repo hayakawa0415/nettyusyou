@@ -1,0 +1,9 @@
+# Node and system files
+node_modules/
+.DS_Store
+.env
+*.log
+*.tmp
+*.swp
+# API keys and secrets (例)
+secret_*
