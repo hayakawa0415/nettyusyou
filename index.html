@@ -291,7 +291,7 @@
         });
 
         async function getWeatherData(lat, lon) {
-            const weatherApiUrl = `/.netlify/functions/weather?lat=${lat}&lon=${lon}`;
+            const weatherApiUrl = `/api/weather?lat=${lat}&lon=${lon}`;
             try {
                 const response = await fetch(weatherApiUrl);
                 if (!response.ok) {
